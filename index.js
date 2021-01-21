@@ -26,7 +26,7 @@ const originalFlavors = [
     "Orange Sherbet",
     "Peach",
     "Peppermint Fudge Ribbon",
-    "Peppermint Stick",
+    "Peppermint Stick",  
     "Pineapple Sherbet",
     "Raspberry Sherbet",
     "Rocky Road",
