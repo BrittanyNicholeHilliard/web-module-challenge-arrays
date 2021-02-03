@@ -46,7 +46,12 @@ Use the copy function below to do the following:
 */
 
 function copy(array) {
-    const newArray = array;
+    const newArray = [...array];
+    return newArray
+}
+
+function copy(array) {
+    const newArray = [...originalFlavors];
     return newArray
 }
 
@@ -173,9 +178,16 @@ Use the filterByWord function below to do the following:
     DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem. 
 */
 
-function filterByWord(/*your code here*/){
-    /*your code here*/
-}
+
+function filterByWord(flavor){
+    for (i==0; i < originalFlavors.length; i++) {
+        if (originalFlavors.includes('flavor') {
+        const iceCream = []
+        iceCream[iceCream.length] = originalFlavors[i];
+        }
+    }
+    
+    return filterByWord(chocolate);
 
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
